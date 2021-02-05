@@ -1,4 +1,4 @@
-# BackupsSSHdistant
+# Backups SSH distant
 Backup script by ssh on a remote server
 
 Dependency :
