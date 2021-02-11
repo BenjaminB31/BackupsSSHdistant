@@ -39,7 +39,7 @@ def execute():
 execute()
 ssh.close()
 
-ScpAction = "sshpass -p \"" + Password + "\" scp -r -p " + SrcDir + " " + UserName + "@" + Host + ":" + DestDir + "/" + dt_string
+ScpAction = "sshpass -p \"" + Password + "\" scp -r -p " + SrcDir + " " + UserName + "@" + Host + ":" + DestDir + "/" + NameHost + "/" + dt_string
 print(ScpAction)
 scp = os.system(ScpAction) 
 print(scp)
