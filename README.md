@@ -2,7 +2,6 @@
 Backup script by ssh on a remote server
 
 Dependency :
-  - apt install python3
-  - apt install python3-pip
   - apt install sshpass
+  - apt install python3 python3-pip
   - pip3 install paramiko
